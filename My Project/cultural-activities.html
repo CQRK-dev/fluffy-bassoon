@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <!-- 相同head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>文化活动 - 重庆人文科技学院</title>
+        <link rel="icon" href="/picture/logo1111.png" type="image/x-icon">
+
+       <!-- 引入 Font Awesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style(导航).css">
+        <link rel="stylesheet" href="style(下拉列表).css">
+        <link rel="stylesheet" href="style(logo).css">
+        <link rel="stylesheet" href="style(走进人科).css">
+        <link rel="stylesheet" href="style(手机端768).css">
+        <link rel="stylesheet" href="style(登录模态框).css">
+        <link rel="stylesheet" href="style(文化活动).css">
+
+       
+    
+    </head>
+   
+  
+   
+</head>
+<body>
+               <!-- === 页面互链导航 === -->
+    <nav class="page-links">
+        <!-- 校园风光 -->
+        <a href="campus-scenery.html" class="link-btn" title="校园风光">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>风光</span>
+        </a>
+        
+        <!-- 校园视频 -->
+        <a href="campus-video.html" class="link-btn" title="校园视频">
+            <i class="fas fa-video"></i>
+            <span>视频</span>
+        </a>
+        
+        <!-- 文化活动 -->
+        <a href="cultural-activities.html" class="link-btn" title="文化活动">
+            <i class="fas fa-masks-theater"></i>
+            <span>活动</span>
+        </a>
+    </nav>
+    
+
+
+    <!-- 相同header -->
+     
+    <header>
+        <button class="menu">&#9776;</button>
+        <a href="index.html" class="mobile-home">首页</a>
+        <h1>重庆人文科技学院</h1>
+        <nav>
+            <ul class="nav">
+                <!-- 下拉列表 -->
+                <li class="desktop-home"><a href="index（主程序位置）请打开这个观看.html">首页</a></li>
+                <li class="dropdown">
+                   
+                    <a href="#">招生动态</a>
+                    <ul class="droplist">
+                        <li><a href="#">招生简章</a></li>
+                        <li><a href="#">政策解读</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">媒体聚焦</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">关于我们</a>
+                    <ul class="droplist">
+                        <li><a href="#">学校简介</a></li>
+                        <li><a href="#">领导团队</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">校园体验</a>
+                    <ul class="droplist">
+                        <li><a href="#">专业展示</a></li>
+                        <li><a href="#">VR校园</a></li>
+                        <li><a href="#">生活指南</a></li>
+                        <li><a href="#">交通导航</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">考试服务</a>
+                    <ul class="droplist">
+                        <li><a href="#">报名系统</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">服务协议</a></li>
+                    </ul>
+                </li>
+                <li class="login-btn">
+                    <a href="#" id="loginTrigger">用户登录</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- 为缩小后的汉堡列表添加下拉列表内容 -->
+        <div class="mobile-menu">
+            <ul class="mobile-nav">
+                <!-- 最新消息菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        招生动态
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">招生简章</a></li>
+                        <li><a href="#">政策解读</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">媒体聚焦</a></li>
+                    </ul>
+                </li>
+                <!-- 关于我们菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        关于我们
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">学校简介</a></li>
+                        <li><a href="#">领导团队</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <!-- 校园体验菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        校园体验
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">专业展示</a></li>
+                        <li><a href="#">VR校园</a></li>
+                        <li><a href="#">生活指南</a></li>
+                        <li><a href="#">交通导航</a></li>
+                    </ul>
+                </li>
+                <!-- 考生服务菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        考生服务
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">报名系统</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">服务协议</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+<main>
+ <!-- 文化活动页新增内容 -->
+ <section class="activity-intro">
+    <h2>校园文化活动精彩呈现</h2>
+    <p>重庆人文科技学院致力于为学生提供丰富多彩的文化活动，涵盖艺术、体育、学术等多个领域。这些活动不仅丰富了同学们的课余生活，还为大家提供了展示自我、锻炼能力的平台。让我们一起回顾那些精彩瞬间，感受校园文化的魅力！</p>
+</section>
+
+<!-- 视频轮播部分，保持不变 -->
+<section class="cultural-activities">
+    <!-- 轮播容器 -->
+    <div class="carousel-container">
+        <!-- 图片列表 -->
+        <div class="carousel-track">
+            <!-- 图片项 -->
+            <div class="carousel-item active">
+                <img src="./picture/校园活动-军训.jpg" alt="夜间军训" class="carousel-img">
+                <div class="image-caption">夜间军训</div>
+                
+            </div>
+            <div class="carousel-item">
+                <img src="./picture/文化活动-广场画展.jpg" alt="文化活动-广场画展" class="carousel-img">
+                <div class="image-caption">广场画展</div>
+            </div>
+            <div class="carousel-item">
+                <img src="./picture/社区一展示活动.jpg" alt="社区一展示活动" class="carousel-img">
+                <div class="image-caption">社区一展示活动</div>
+            </div>
+            <div class="carousel-item">
+                <img src="./picture/国旗护卫队.jpg" alt="护卫队" class="carousel-img">
+                <div class="image-caption">国旗护卫队开幕式</div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./picture/红岩研学活动.jpg" alt="红岩研学活动" class="carousel-img">
+                <div class="image-caption">红岩研学活动</div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./picture/云支教.jpg" alt="云支教" class="carousel-img">
+                <div class="image-caption">云支教志愿者活动</div>
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./picture/红岩研学活动.jpg" alt="护卫队" class="carousel-img">
+                <div class="image-caption">红岩研学活动</div>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- 导航控制按钮 -->
+        <button class="carousel-button prev" aria-label="上一张">‹</button>
+        <button class="carousel-button next" aria-label="下一张">›</button>
+
+        <!-- 指示器圆点 -->
+        <div class="carousel-indicators"></div>
+    </div>
+</section>
+
+<!-- 活动列表板块 -->
+<section class="activity-list">
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/文化活动-广场画展.jpg" alt="画展">
+            
+        </div>
+        <div class="activity-info">
+            <h3>艺术展览活动</h3>
+            <p>本次艺术展览汇聚了众多学生的优秀作品，包括绘画、摄影、手工制作等多种形式。展览现场吸引了大量师生驻足欣赏，为校园增添了浓厚的艺术氛围。</p>
+        </div>
+    </div>
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/体育比赛.jpg" alt="体育比赛1">
+        </div>
+        <div class="activity-info">
+            <h3>体育比赛活动</h3>
+            <p>校园体育比赛精彩纷呈，同学们在赛场上挥洒汗水，展现出了顽强拼搏的精神
+                。比赛项目包括跳远、长跑、跳高等活动，促进了同学们之间的交流与合作。</p>
+        </div>
+    </div>
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/讲座.jpg" alt="讲座">
+        </div>
+        <div class="activity-info">
+            <h3>学术讲座活动</h3>
+            <p>学校邀请了多位知名学者举办学术讲座，内容涵盖了各个学科领域。
+                讲座为同学们提供了与专家面对面交流的机会，拓宽了大家的学术视野。</p>
+        </div>
+    </div>
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/志愿者.jpg" alt="志愿者">
+        </div>
+        <div class="activity-info">
+            <h3>志愿者活动</h3>
+            <p>学校组织志愿者团队开展 “社区文化帮扶” 活动等活动，邀请非遗传承人、文化传承人
+                民间艺术家走进社区，活动内容涉及传统手工艺、地方戏曲、民俗文化等多个领域。</p>
+        </div>
+    </div>
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/晚会.jpg" alt="晚会">
+        </div>
+        <div class="activity-info">
+            <h3>晚会节目活动</h3>
+            <p>学校学生会策划举办校园主题晚会，邀请了专业歌舞演员、喜剧艺人等众多表演嘉宾，
+                节目类型涵盖歌舞、小品、魔术等多个艺术领域。
+                晚会为师生们提供了与表演艺术家近距离互动的平台，丰富了大家的课余文化生活。
+            </p>
+        </div>
+    </div>
+    <div class="activity-item">
+        <div class="activity-thumbnail">
+            <img src="./picture/红岩研学活动.jpg" alt="研学">
+        </div>
+        <div class="activity-info">
+            <h3>学术研学活动</h3>
+            <p>学校组织开展研学活动，邀请各领域专业老师随行指导，内容涉及自然观察、
+                历史文化、科学实践等多个方面。活动中，同学们能与老师们随时交流探讨，
+                在实践体验中加深了对知识的理解。
+            </p>
+        </div>
+    </div>
+</section>
+</main>
+    
+    <footer>
+        <p>招生热线:023-42464965 | 监督电话:023-42465352
+            <br>Copyright @ 重庆人文科技学院招生就业处</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+    <div class="login-modal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>考生服务系统登录</h2>
+            <form>
+                <input type="text" placeholder="用户名" required>
+                <input type="password" placeholder="密码" required>
+                <div class="form-links">
+                    <a href="#registerModal" class="switch-modal">注册账号</a>
+                    <a href="#forgotModal" class="switch-modal">忘记密码？</a>
+                </div>
+                <button type="submit">登录</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 注册模态框 -->
+    <div class="login-modal" id="registerModal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>注册账号</h2>
+            <form>
+                <input type="text" placeholder="用户名" required>
+                <input type="email" placeholder="邮箱" required>
+                <input type="password" placeholder="密码" required>
+                <input type="password" placeholder="确认密码" required>
+                <button type="submit">立即注册</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 找回密码模态框 -->
+    <div class="login-modal" id="forgotModal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>找回密码</h2>
+            <form>
+                <input type="email" placeholder="注册邮箱" required>
+                <button type="submit">发送重置链接</button>
+            </form>
+        </div>
+    </div>
+
+   
+
+<!-- 图片查看弹窗 -->
+<div class="scenery-modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <img src="" alt="大图预览" class="modal-image">
+    </div>
+</div>
+
+    <script src="script(校园风光).js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

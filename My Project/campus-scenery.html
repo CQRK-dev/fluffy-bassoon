@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <!-- 保持与主页相同的head部分 -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>校园风光 - 重庆人文科技学院</title>
+        <link rel="icon" href="/picture/logo1111.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style(导航).css">
+        <link rel="stylesheet" href="style(下拉列表).css">
+        <link rel="stylesheet" href="style(logo).css">
+        <link rel="stylesheet" href="style(走进人科).css">
+        <link rel="stylesheet" href="style(手机端768).css">
+        <link rel="stylesheet" href="style(登录模态框).css">
+        <link rel="stylesheet" href="style(校园风光).css">
+    
+    </head>
+   
+</head>
+<body>
+
+
+    <!-- === 页面互链导航 === -->
+    <nav class="page-links">
+        <!-- 校园风光 -->
+        <a href="campus-scenery.html" class="link-btn" title="校园风光">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>风光</span>
+        </a>
+        
+        <!-- 校园视频 -->
+        <a href="campus-video.html" class="link-btn" title="校园视频">
+            <i class="fas fa-video"></i>
+            <span>视频</span>
+        </a>
+        
+        <!-- 文化活动 -->
+        <a href="cultural-activities.html" class="link-btn" title="文化活动">
+            <i class="fas fa-masks-theater"></i>
+            <span>活动</span>
+        </a>
+    </nav>
+    
+
+
+
+    <!-- 复用主页的header导航 -->
+    <header>
+        <button class="menu">&#9776;</button>
+        <a href="index.html" class="mobile-home">首页</a>
+        <h1>重庆人文科技学院</h1>
+
+        
+        <nav>
+            
+            <ul class="nav">
+                <!-- 下拉列表 -->
+                <li class="desktop-home"><a href="index（主程序位置）请打开这个观看.html">首页</a></li>
+                    <a href="#">招生动态</a>
+                    <ul class="droplist">
+                        <li><a href="#">招生简章</a></li>
+                        <li><a href="#">政策解读</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">媒体聚焦</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">关于我们</a>
+                    <ul class="droplist">
+                        <li><a href="#">学校简介</a></li>
+                        <li><a href="#">领导团队</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">校园体验</a>
+                    <ul class="droplist">
+                        <li><a href="#">专业展示</a></li>
+                        <li><a href="#">VR校园</a></li>
+                        <li><a href="#">生活指南</a></li>
+                        <li><a href="#">交通导航</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">考试服务</a>
+                    <ul class="droplist">
+                        <li><a href="#">报名系统</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">服务协议</a></li>
+                    </ul>
+                </li>
+                <li class="login-btn">
+                    <a href="#" id="loginTrigger">用户登录</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 为缩小后的汉堡列表添加下拉列表内容 -->
+        <div class="mobile-menu">
+            <ul class="mobile-nav">
+                <!-- 最新消息菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        招生动态
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">招生简章</a></li>
+                        <li><a href="#">政策解读</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">媒体聚焦</a></li>
+                    </ul>
+                </li>
+                <!-- 关于我们菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        关于我们
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">学校简介</a></li>
+                        <li><a href="#">领导团队</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <!-- 校园体验菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        校园体验
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">专业展示</a></li>
+                        <li><a href="#">VR校园</a></li>
+                        <li><a href="#">生活指南</a></li>
+                        <li><a href="#">交通导航</a></li>
+                    </ul>
+                </li>
+                <!-- 考生服务菜单 -->
+                <li class="mobile-dropdown">
+                    <a href="#">
+                        考生服务
+                        <span class="arrow">›</span>
+                    </a>
+                    <ul class="mobile-sublist">
+                        <li><a href="#">报名系统</a></li>
+                        <li><a href="#">录取查询</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">服务协议</a></li>
+
+             
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <section class="scenery-section">
+        <!-- 分类筛选 -->
+        <div class="scenery-filter">
+            <button class="scenery-btn active" data-category="all">全部</button>
+            <button class="scenery-btn" data-category="architecture">特色建筑</button>
+            <button class="scenery-btn" data-category="landscape">自然景观</button>
+            <button class="scenery-btn" data-category="night">夜景风采</button>
+        </div>
+    
+        <!-- 图片网格 -->
+        <div class="scenery-grid">
+            <!-- 图片卡片 1 -->
+            <div class="scenery-card" data-category="architecture">
+                <div class="scenery-thumb">
+                    <img src="./picture/特色建筑怀远楼.jpg" alt="怀远楼" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>怀远楼</h3>
+                    <p>怀远楼是行政办公楼，用于学校行政管理、会议研讨
+                        接待对外交流以及学生事务管理等。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="architecture">
+                <div class="scenery-thumb">
+                    <img src="./picture/行知图书馆.jpg" alt="行知图书馆" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>行知图书馆</h3>
+                    <p>行知图书馆是学校的文献信息资源中心，面积约 2 万平米，
+                        藏书丰富，涵盖多种资源类型，设有多个功能区域
+                        ，实现数字化、智能化服务，开展阅读推广等活动。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="architecture">
+                <div class="scenery-thumb">
+                    <img src="./picture/陶行知雕像.jpg" alt="行知先生雕像" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>陶行知先生雕像</h3>
+                    <p>行知先生的雕像是校园文化的重要标识，
+                        体现了学校对陶行知教育思想的传承与弘扬，
+                        激励着师生践行 “教学做合一” 等教育理念。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="architecture">
+                <div class="scenery-thumb">
+                    <img src="./picture/十七教.jpg" alt="第十七教学楼" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>卓立楼（十七教）</h3>
+                    <p>是学校的主要教学场所之一。建筑面积 30149.57m²，目前有 10 个二级学院、6 个职能部门使用
+                        ，楼内设有多个教室和教学设施，
+                        可满足不同课程的教学需求。</p>
+                </div>
+            </div>
+
+
+            <div class="scenery-card" data-category="landscape">
+                <div class="scenery-thumb">
+                    <img src="./picture/行知大道.jpg" alt="行知大道" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>行知大道</h3>
+                    <p>行知大道是校园的主要道路之一，不仅是师生日常通行的重要通道，
+                        还承载着学校的文化内涵，道路周边有体现行知文化的建筑和设施，
+                        彰显着学校对陶行知教育思想的传承与弘扬</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="landscape">
+                <div class="scenery-thumb">
+                    <img src="picture/校园风光-图书馆风景.jpg" alt="图书馆正门" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>图书馆正门</h3>
+                    <p>学校里的花丛不仅美化了校园环境，营造出优美宜人的氛围，
+                        还体现了学校对校园文化建设的重视，以及为师生创
+                        造舒适学习生活环境的用心</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="landscape">
+                <div class="scenery-thumb">
+                    <img src="./picture/校园观光车.jpg" alt="校园观光车" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>校园观光车</h3>
+                    <p>校园观光车为师生提供校内出行服务。有两条线路，穿梭于智园、慧园等区域，
+                    共 11 辆车。付费方式多样一次一元，特殊时期如校园开放周凭参观证可免费乘坐。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="landscape">
+                <div class="scenery-thumb">
+                    <img src="./picture/学校后山.jpg" alt="学校后山" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>学校后山</h3>
+                    <p>自然美景与人文底蕴交融之地。漫山遍野的果树，桃李梨葡挂满枝头，
+                        果香四溢，是名副其实的 “花果山”。春季繁花似锦，李花、桃花、梨花竞相绽放
+                        ，宛如梦幻花海。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="landscape">
+                <div class="scenery-thumb">
+                    <img src="./picture/第二运动场.jpg" alt="第二运动场" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>第二运动场</h3>
+                    <p>第二运动场，配备标准塑胶跑道与绿茵足球场，周边器械多样，
+                        满足运动训练需求。场地开阔，绿树环绕，环境宜人，是师生日常锻炼
+                        、举办赛事、挥洒青春活力的绝佳场所 </p>
+                </div>
+            </div>
+
+
+            <div class="scenery-card" data-category="night">
+                <div class="scenery-thumb">
+                    <img src="picture/傍晚的慧园.jpg" alt="傍晚的慧园" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>傍晚的慧园</h3>
+                    <p>暮色浸染时，慧园宛如被揉碎的晚霞轻轻包裹。
+                        青石小径蜿蜒着细碎笑语，学子们踩着暮色归来，衣角沾着夕阳的暖。
+                    </p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="night">
+                <div class="scenery-thumb">
+                    <img src="picture/夜晚一运.jpg" alt="夜晚一运" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>夜晚的第一运动场</h3>
+                    <p>夜幕笼罩，第一运动场在月色与灯光交辉下熠熠生辉。
+                        塑胶跑道与草坪泛着柔和光泽，夜跑者的身影穿梭其中，足球场上少年笑语飞扬。
+                       晚风的轻拂，交织着青春气息，将汗水与欢乐融进夜色。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="night">
+                <div class="scenery-thumb">
+                    <img src="picture/黄昏下的树人大道.jpg" alt="黄昏下的树人大道" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>黄昏下的树人大道</h3>
+                    <p>归途中的学子踏着余晖漫步，身影被拉得悠长；来往车辆缓缓驶过，
+                        扬起细碎尘埃也裹着温柔。道旁建筑浸染暮色，轮廓渐次朦胧，
+                        蝉鸣与笑语混着晚风，将一日的喧嚣酿成静谧的诗行 。</p>
+                </div>
+            </div>
+
+            <div class="scenery-card" data-category="night">
+                <div class="scenery-thumb">
+                    <img src="picture/校园活动-军训.jpg" alt="军训" loading="lazy">
+                    <div class="scenery-overlay">
+                        <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+                <div class="scenery-info">
+                    <h3>新生夜晚军训</h3>
+                    <p>夜幕下的军训场，新生们围坐成圈。灯光与星光交织，有人高歌，
+                        有人起舞，小品、朗诵轮番上演。欢声笑语驱散疲惫，青春在夜色中尽情绽放</p>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- 更多图片卡片... -->
+        </div>
+    
+        <!-- 图片查看弹窗 -->
+        <div class="scenery-modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img src="" alt="大图预览" class="modal-image">
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+
+    <!-- 复用主页的footer -->
+    <footer>
+        <p>招生热线:023-42464965 | 监督电话:023-42465352
+            <br>Copyright @ 重庆人文科技学院招生就业处</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div class="login-modal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>考生服务系统登录</h2>
+            <form>
+                <input type="text" placeholder="用户名" required>
+                <input type="password" placeholder="密码" required>
+                <div class="form-links">
+                    <a href="#registerModal" class="switch-modal">注册账号</a>
+                    <a href="#forgotModal" class="switch-modal">忘记密码？</a>
+                </div>
+                <button type="submit">登录</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 注册模态框 -->
+    <div class="login-modal" id="registerModal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>注册账号</h2>
+            <form>
+                <input type="text" placeholder="用户名" required>
+                <input type="email" placeholder="邮箱" required>
+                <input type="password" placeholder="密码" required>
+                <input type="password" placeholder="确认密码" required>
+                <button type="submit">立即注册</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 找回密码模态框 -->
+    <div class="login-modal" id="forgotModal">
+        <div class="login-content">
+            <span class="close-btn">&times;</span>
+            <h2>找回密码</h2>
+            <form>
+                <input type="email" placeholder="注册邮箱" required>
+                <button type="submit">发送重置链接</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="script(校园风光).js"></script>
+</body>
+</html>
